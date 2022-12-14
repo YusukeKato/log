@@ -2,12 +2,6 @@
 
 By [Yusuke Kato](https://yusukekato.github.io/)
 
-# pandocによるMarkdownからHTMLの生成
-
-```sh
-pandoc pxxxx.md -o pxxxx.html
-```
-
 # 2022年
 
 ## 12月
