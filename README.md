@@ -1,2 +1,5 @@
-# harunachan
-Haruna-chan Blog
+# Haruna-chan Blog
+
+By Yusuke Kato
+
+https://harunachan.com/
