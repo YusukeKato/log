@@ -4,7 +4,7 @@
   <meta charset="utf-8">
   <meta name="generator" content="pandoc">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
-  <title>Haruna-chan Blog</title>
+  <title>Markdown to HTML (pandoc)</title>
   <style type="text/css">code{white-space: pre;}</style>
   <style type="text/css">
 a.sourceLine { display: inline-block; line-height: 1.25; }
@@ -364,27 +364,14 @@ pre {
 <body>
   <div class="md2html-container">
 <header>
-<h1 class="title">Haruna-chan Blog</h1>
+<h1 class="title">Markdown to HTML (pandoc)</h1>
 </header>
-<h1 id="haruna-chan-blog">Haruna-chan Blog</h1>
-<p>Author : <a href="https://yusukekato.github.io/">Yusuke Kato</a></p>
-<h1 id="年">2022年</h1>
-<h2 id="月">12月</h2>
-<ul>
-<li><a href="./harunachan/2022/p1214_2.html">12/14 : MarkdownをHTMLに変換（pandoc）</a></li>
-<li><a href="./harunachan/2022/p1214.html">12/14 : MarkdownをHTMLに変換（Markdown PDF）</a></li>
-</ul>
-<h1 id="blog-info.">Blog Info.</h1>
-<ul>
-<li><a href="https://qiita.com/cawpea/items/cea1243e106ababd15e7">pandoc参考資料</a></li>
-<li><a href="https://github.com/cawpea/md2html-template-for-pandoc">pandoc template</a></li>
-</ul>
-<p>ディレクトリ確認</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="ex">pandoc</span> -v</a></code></pre></div>
-<p>HTMLテンプレートを置く場所</p>
-<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb2-1" title="1"><span class="ex">~/.pandoc/templates/md2thml.html</span></a></code></pre></div>
-<p>実行コマンド例</p>
-<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" title="1"><span class="ex">pandoc</span> -f markdown -t html --template=md2html index.md <span class="op">&gt;</span> index.html</a></code></pre></div>
+<h1 id="pandocによるmarkdownからhtmlの生成">pandocによるMarkdownからHTMLの生成</h1>
+<p>シンプルなHTMLを生成。</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="fu">sudo</span> apt update</a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="fu">sudo</span> apt install pandoc</a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="ex">pandoc</span> index.md -o index.html</a></code></pre></div>
+<p><a href="https://harunachan.com/">ホームへ</a></p>
   </div>
 </body>
 </html>
