@@ -1,6 +1,6 @@
 % Haruna-chan Blog
 
-# Haruna-chan Blog
+# ハルちゃんブログ
 
 Author : [Yusuke Kato](https://yusukekato.github.io/)
 
