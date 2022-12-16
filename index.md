@@ -4,9 +4,9 @@
 
 Author : [Yusuke Kato](https://yusukekato.github.io/)
 
-# 2022年
+# LOG
 
-## 12月
+## 2022年12月
 
 - [12/16 : pandoc用のMakefile](./log/2022/p1216_3.html)
 - [12/16 : pandocでHTMLテンプレートとcssを使用](./log/2022/p1216_2.html)
@@ -14,6 +14,10 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 - [12/15 : pandocでHTMLテンプレートを使用](./log/2022/p1215.html)
 - [12/14 : MarkdownをHTMLに変換（pandoc）](./log/2022/p1214_2.html)
 - [12/14 : MarkdownをHTMLに変換（Markdown PDF）](./log/2022/p1214.html)
+
+# DIARY
+
+- [2022/12](./log/diary/p202212.html)
 
 # Blog Info.
 
