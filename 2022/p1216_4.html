@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc-markdown-css-theme" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>HarunachanBlog</title>
+  <link rel="stylesheet" href="./theme.css" />
+</head>
+<body>
+
+<header>
+<h1 class="title">HarunachanBlog</h1>
+<blockquote class="metadata">
+</blockquote>
+</header>
+
+<nav id="TOC" role="doc-toc">
+    <strong>Contents</strong><label for="contents">⊕</label>
+  <input type="checkbox" id="contents">
+  <ul>
+  <li><a href="#neort-random-sin-wave">NEORT “Random Sin Wave”</a><ul>
+  <li><a href="#javascript">JavaScript</a></li>
+  </ul></li>
+  <li><a href="#html">HTML</a></li>
+  <li><a href="#作品ページ">作品ページ</a></li>
+  <li><a href="#参考記事">参考記事</a></li>
+  <li><a href="#ホームへ">ホームへ</a></li>
+  </ul>
+</nav>
+
+<main>
+<h1 id="neort-random-sin-wave">NEORT “Random Sin Wave”</h1>
+<h2 id="javascript">JavaScript</h2>
+<p>p5.js</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">var</span> offset <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="kw">var</span> strum <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb1-3" title="3"></a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="kw">function</span> <span class="at">setup</span>() <span class="op">{</span></a>
+<a class="sourceLine" id="cb1-5" title="5">  <span class="at">createCanvas</span>(windowWidth<span class="op">,</span> windowHeight)<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-6" title="6"><span class="op">}</span></a>
+<a class="sourceLine" id="cb1-7" title="7"></a>
+<a class="sourceLine" id="cb1-8" title="8"><span class="kw">function</span> <span class="at">draw</span>() <span class="op">{</span></a>
+<a class="sourceLine" id="cb1-9" title="9">  <span class="at">background</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-10" title="10">  <span class="at">stroke</span>(<span class="dv">4</span>)<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-11" title="11">  <span class="at">noFill</span>()<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-12" title="12">  <span class="at">beginShape</span>()<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-13" title="13">  <span class="at">vertex</span>(<span class="dv">0</span><span class="op">,</span> height)<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-14" title="14">  <span class="cf">for</span>(<span class="kw">var</span> x <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> x <span class="op">&lt;</span> width<span class="op">;</span> x<span class="op">++</span>)<span class="op">{</span></a>
+<a class="sourceLine" id="cb1-15" title="15">    <span class="kw">var</span> angle <span class="op">=</span> offset <span class="op">+</span> x <span class="op">*</span> <span class="fl">0.01</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb1-16" title="16">    <span class="kw">var</span> y <span class="op">=</span> <span class="at">map</span>(<span class="at">sin</span>(angle)<span class="op">+</span><span class="at">random</span>(<span class="dv">5</span>)<span class="op">,</span> <span class="op">-</span>strum<span class="op">,</span> strum<span class="op">,</span> <span class="dv">150</span><span class="op">,</span> <span class="dv">250</span>)<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-17" title="17">    <span class="at">vertex</span>(x<span class="op">,</span> y<span class="op">+</span><span class="at">random</span>(<span class="dv">50</span>))<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-18" title="18">  <span class="op">}</span></a>
+<a class="sourceLine" id="cb1-19" title="19">  <span class="at">vertex</span>(width<span class="op">,</span> height)<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-20" title="20">  <span class="at">endShape</span>()<span class="op">;</span></a>
+<a class="sourceLine" id="cb1-21" title="21">  offset <span class="op">+=</span> <span class="fl">0.1</span><span class="op">;</span></a>
+<a class="sourceLine" id="cb1-22" title="22"><span class="op">}</span></a></code></pre></div>
+<h1 id="html">HTML</h1>
+<div class="sourceCode" id="cb2"><pre class="sourceCode html"><code class="sourceCode html"><a class="sourceLine" id="cb2-1" title="1"><span class="kw">&lt;script</span><span class="ot"> src=</span><span class="st">&quot;https://cdn.jsdelivr.net/npm/p5@1.5.0/lib/p5.js&quot;</span><span class="kw">&gt;&lt;/script&gt;</span></a></code></pre></div>
+<h1 id="作品ページ">作品ページ</h1>
+<p><a href="https://neort.io/art/ce9v6q4n70rvflp1dsbg">REORTのURL</a></p>
+<h1 id="参考記事">参考記事</h1>
+<p><a href="https://editor.p5js.org/stevenraysimon/sketches/HyTseadOg">参考記事</a></p>
+<h1 id="ホームへ">ホームへ</h1>
+<p><a href="https://harunachan.com">ホームへ</a></p>
+</main>
+
+<script>
+;(function() {
+  // Non-essential if user has JavaScript off. Just makes checkboxes look nicer.
+  var selector = '.task-list > li > input[type="checkbox"]';
+  var checkboxes = document.querySelectorAll(selector);
+  Array.from(checkboxes).forEach((checkbox) => {
+    var wasChecked = checkbox.checked;
+    checkbox.disabled = false;
+    checkbox.addEventListener('click', (ev) => {ev.target.checked = wasChecked});
+  });
+})();
+</script>
+</body>
+</html>
