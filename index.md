@@ -8,12 +8,13 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 ## 2022年12月
 
-- [12/16 : pandoc用のMakefile](./log/2022/p1216_3.html)
-- [12/16 : pandocでHTMLテンプレートとcssを使用](./log/2022/p1216_2.html)
-- [12/16 : 円周率シェル芸](./log/2022/p1216.html)
-- [12/15 : pandocでHTMLテンプレートを使用](./log/2022/p1215.html)
-- [12/14 : MarkdownをHTMLに変換（pandoc）](./log/2022/p1214_2.html)
-- [12/14 : MarkdownをHTMLに変換（Markdown PDF）](./log/2022/p1214.html)
+- [NEORT "Random Sin Wave"](./log/2022/p1216_4.html)
+- [Makefile (pandoc)](./log/2022/p1216_3.html)
+- [pandoc (HTML Template and css)](./log/2022/p1216_2.html)
+- [円周率シェル芸](./log/2022/p1216.html)
+- [pandoc (HTML Template)](./log/2022/p1215.html)
+- [Markdown to HTML (pandoc)](./log/2022/p1214_2.html)
+- [Markdown to HTML (Markdown PDF)](./log/2022/p1214.html)
 
 # DIARY
 
@@ -23,9 +24,9 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # Blog Info.
 
-- [pandocの参考情報](https://jez.io/pandoc-markdown-css-theme/)
-- [拝借したHTMLテンプレート](https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5)
-- [拝借したcss](https://github.com/jez/pandoc-markdown-css-theme/blob/master/public/css/theme.css)
+- [pandoc info.](https://jez.io/pandoc-markdown-css-theme/)
+- [HTML Template](https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5)
+- [css](https://github.com/jez/pandoc-markdown-css-theme/blob/master/public/css/theme.css)
 
 # GitHub
 
