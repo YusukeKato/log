@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc-markdown-css-theme" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>Haruna-chan Blog</title>
+  <link rel="stylesheet" href="./../theme.css" />
+</head>
+<body>
+
+<header>
+<h1 class="title">Haruna-chan Blog</h1>
+<blockquote class="metadata">
+</blockquote>
+</header>
+
+
+<main>
+<h1 id="円周率シェル芸">円周率シェル芸</h1>
+<p>円周率を求めるシェル芸。</p>
+<p>インデントを崩せばシェル芸botで実行可能。</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="ex">python</span> -c <span class="st">&quot;</span></a>
+<a class="sourceLine" id="cb1-2" title="2"><span class="st">from decimal import Decimal as D</span></a>
+<a class="sourceLine" id="cb1-3" title="3"><span class="st">from decimal import *</span></a>
+<a class="sourceLine" id="cb1-4" title="4"><span class="st">getcontext().prec=999</span></a>
+<a class="sourceLine" id="cb1-5" title="5"><span class="st">a=D(1)</span></a>
+<a class="sourceLine" id="cb1-6" title="6"><span class="st">b=D(1)/D(2).sqrt()</span></a>
+<a class="sourceLine" id="cb1-7" title="7"><span class="st">t=D(0.25)</span></a>
+<a class="sourceLine" id="cb1-8" title="8"><span class="st">p=D(1)</span></a>
+<a class="sourceLine" id="cb1-9" title="9"><span class="st">for i in range(999):</span></a>
+<a class="sourceLine" id="cb1-10" title="10"><span class="st">  e=(a+b)/D(2)</span></a>
+<a class="sourceLine" id="cb1-11" title="11"><span class="st">  f=(a*b).sqrt()</span></a>
+<a class="sourceLine" id="cb1-12" title="12"><span class="st">  g=t-p*(a-e)**2</span></a>
+<a class="sourceLine" id="cb1-13" title="13"><span class="st">  h=D(2)*p</span></a>
+<a class="sourceLine" id="cb1-14" title="14"><span class="st">  a=e</span></a>
+<a class="sourceLine" id="cb1-15" title="15"><span class="st">  b=f</span></a>
+<a class="sourceLine" id="cb1-16" title="16"><span class="st">  t=g</span></a>
+<a class="sourceLine" id="cb1-17" title="17"><span class="st">  p=h</span></a>
+<a class="sourceLine" id="cb1-18" title="18"><span class="st">print((a+b)**2/(D(4)*t))&quot;</span> <span class="kw">|</span> <span class="ex">cowsay</span> <span class="kw">|</span> <span class="ex">textimg</span> -s</a></code></pre></div>
+<p><img src="./p1216.png" /></p>
+<p><a href="https://harunachan.com/">ホームへ</a></p>
+</main>
+
+<script>
+;(function() {
+  // Non-essential if user has JavaScript off. Just makes checkboxes look nicer.
+  var selector = '.task-list > li > input[type="checkbox"]';
+  var checkboxes = document.querySelectorAll(selector);
+  Array.from(checkboxes).forEach((checkbox) => {
+    var wasChecked = checkbox.checked;
+    checkbox.disabled = false;
+    checkbox.addEventListener('click', (ev) => {ev.target.checked = wasChecked});
+  });
+})();
+</script>
+</body>
+</html>
