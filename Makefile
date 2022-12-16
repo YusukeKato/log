@@ -8,7 +8,7 @@ TARGETS := $(patsubst %.md,%.html,$(SOURCES))
 all: $(TARGETS)
 
 %.html: %.md
-	pandoc -f markdown $< -t html -c ./theme.css --template=template.html5 -o $@
+	pandoc -f markdown $< -t html -c ./theme.css --template=template.html5 --toc -o $@
 
 .PHONY: clean
 
