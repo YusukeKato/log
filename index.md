@@ -14,3 +14,9 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 - [12/14 : MarkdownをHTMLに変換（pandoc）](./log/2022/p1214_2.html)
 - [12/14 : MarkdownをHTMLに変換（Markdown PDF）](./log/2022/p1214.html)
 
+# Blog Info.
+
+- [参考情報](https://jez.io/pandoc-markdown-css-theme/)
+- [拝借HTMLテンプレート](https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5)
+- [拝借css](https://github.com/jez/pandoc-markdown-css-theme/blob/master/public/css/theme.css)
+
