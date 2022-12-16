@@ -17,6 +17,8 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # DIARY
 
+## 2022年
+
 - [2022/12](./log/diary/p202212.html)
 
 # Blog Info.
