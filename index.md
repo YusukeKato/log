@@ -17,7 +17,12 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # Blog Info.
 
-- [参考情報](https://jez.io/pandoc-markdown-css-theme/)
-- [拝借HTMLテンプレート](https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5)
-- [拝借css](https://github.com/jez/pandoc-markdown-css-theme/blob/master/public/css/theme.css)
+- [pandocの参考情報](https://jez.io/pandoc-markdown-css-theme/)
+- [拝借したHTMLテンプレート](https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5)
+- [拝借したcss](https://github.com/jez/pandoc-markdown-css-theme/blob/master/public/css/theme.css)
+
+# GitHub
+
+- [YusukeKato](https://github.com/YusukeKato)
+- [LOG](https://github.com/YusukeKato/log)
 
