@@ -8,6 +8,7 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 ## 2022年12月
 
+- [languages.yml](./log/2022/p1217.html)
 - [NEORT "Random Sin Wave"](./log/2022/p1216_4.html)
 - [Makefile (pandoc)](./log/2022/p1216_3.html)
 - [pandoc (HTML Template and css)](./log/2022/p1216_2.html)
