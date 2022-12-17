@@ -8,6 +8,7 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 ## 2022年12月
 
+- [四角回転シェル芸](./log/2022/p1217_2.html)
 - [languages.yml](./log/2022/p1217.html)
 - [NEORT "Random Sin Wave"](./log/2022/p1216_4.html)
 - [Makefile (pandoc)](./log/2022/p1216_3.html)
