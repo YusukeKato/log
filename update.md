@@ -11,7 +11,7 @@ make clean
 ## 記事作成
 
 ```sh
-vim /2022/p1212.md
+vim 2022/p1212.md
 ```
 
 ## index.md編集
