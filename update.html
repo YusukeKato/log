@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc-markdown-css-theme" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>HarunachanBlog</title>
+  <link rel="stylesheet" href="./theme.css" />
+</head>
+<body>
+
+<header>
+<h1 class="title">HarunachanBlog</h1>
+<blockquote class="metadata">
+</blockquote>
+</header>
+
+<nav id="TOC" role="doc-toc">
+    <strong>Contents</strong><label for="contents">⊕</label>
+  <input type="checkbox" id="contents">
+  <ul>
+  <li><a href="#ブログ更新方法">ブログ更新方法</a><ul>
+  <li><a href="#ディレクトリ準備">ディレクトリ準備</a></li>
+  <li><a href="#記事作成">記事作成</a></li>
+  <li><a href="#index.md編集">index.md編集</a></li>
+  <li><a href="#html生成">HTML生成</a></li>
+  <li><a href="#sitemap.xml更新">sitemap.xml更新</a></li>
+  <li><a href="#リモートディレクトリにpush">リモートディレクトリにPush</a></li>
+  <li><a href="#サーバーのローカルディレクトリを更新">サーバーのローカルディレクトリを更新</a></li>
+  <li><a href="#index.htmlを更新">index.htmlを更新</a></li>
+  </ul></li>
+  <li><a href="#ホームへ">ホームへ</a></li>
+  </ul>
+</nav>
+
+<main>
+<h1 id="ブログ更新方法">ブログ更新方法</h1>
+<h2 id="ディレクトリ準備">ディレクトリ準備</h2>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="fu">make</span> clean</a></code></pre></div>
+<h2 id="記事作成">記事作成</h2>
+<div class="sourceCode" id="cb2"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb2-1" title="1"><span class="ex">vim</span> /2022/p1212.md</a></code></pre></div>
+<h2 id="index.md編集">index.md編集</h2>
+<div class="sourceCode" id="cb3"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb3-1" title="1"><span class="ex">vim</span> index.md</a>
+<a class="sourceLine" id="cb3-2" title="2"><span class="co"># - [記事タイトル](./log/2022/p1212.html)</span></a></code></pre></div>
+<h2 id="html生成">HTML生成</h2>
+<div class="sourceCode" id="cb4"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb4-1" title="1"><span class="fu">make</span></a></code></pre></div>
+<h2 id="sitemap.xml更新">sitemap.xml更新</h2>
+<div class="sourceCode" id="cb5"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb5-1" title="1"><span class="ex">vim</span> sitemap.xml</a></code></pre></div>
+<h2 id="リモートディレクトリにpush">リモートディレクトリにPush</h2>
+<div class="sourceCode" id="cb6"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb6-1" title="1"><span class="fu">git</span> add .</a>
+<a class="sourceLine" id="cb6-2" title="2"><span class="fu">git</span> commit -m <span class="st">&quot;update&quot;</span></a>
+<a class="sourceLine" id="cb6-3" title="3"><span class="fu">git</span> push origin main</a></code></pre></div>
+<h2 id="サーバーのローカルディレクトリを更新">サーバーのローカルディレクトリを更新</h2>
+<div class="sourceCode" id="cb7"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb7-1" title="1"><span class="fu">git</span> pull origin main</a></code></pre></div>
+<h2 id="index.htmlを更新">index.htmlを更新</h2>
+<div class="sourceCode" id="cb8"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb8-1" title="1"><span class="fu">bash</span> a.bash</a></code></pre></div>
+<h1 id="ホームへ">ホームへ</h1>
+<p><a href="https://harunachan.com/">ホームへ</a></p>
+</main>
+
+<script>
+;(function() {
+  // Non-essential if user has JavaScript off. Just makes checkboxes look nicer.
+  var selector = '.task-list > li > input[type="checkbox"]';
+  var checkboxes = document.querySelectorAll(selector);
+  Array.from(checkboxes).forEach((checkbox) => {
+    var wasChecked = checkbox.checked;
+    checkbox.disabled = false;
+    checkbox.addEventListener('click', (ev) => {ev.target.checked = wasChecked});
+  });
+})();
+</script>
+</body>
+</html>

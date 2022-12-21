@@ -6,6 +6,12 @@
   <priority>1.0</priority>
 </url>
 
+<!-- blog update -->
+<url>
+  <loc>https://harunachan.com/log/update.html</loc>
+  <priority>0.8</priority>
+</url>
+
 <!-- diary -->
 <url>
   <loc>https://harunachan.com/log/diary/p202212.html</loc>

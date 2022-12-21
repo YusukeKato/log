@@ -28,6 +28,7 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # Blog Info.
 
+- [Blog Update](./log/update.html)
 - [pandoc info.](https://jez.io/pandoc-markdown-css-theme/)
 - [template.html5](https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5)
 - [theme.css](https://github.com/jez/pandoc-markdown-css-theme/blob/master/public/css/theme.css)
