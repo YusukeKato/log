@@ -39,6 +39,7 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 # New PC
 
 - [New PC Info.](./log/new_pc.html)
+- [LaTeX Info.](./log/latex.html)
 
 # GitHub
 

@@ -1,0 +1,64 @@
+<!-- https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5 -->
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+<head>
+  <meta charset="utf-8" />
+  <meta name="generator" content="pandoc-markdown-css-theme" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes" />
+  <title>HarunachanBlog</title>
+  <link rel="stylesheet" href="./theme.css" />
+</head>
+<body>
+
+<header>
+<h1 class="title">HarunachanBlog</h1>
+<blockquote class="metadata">
+</blockquote>
+</header>
+
+<nav id="TOC" role="doc-toc">
+    <strong>Contents</strong><label for="contents">⊕</label>
+  <input type="checkbox" id="contents">
+  <ul>
+  <li><a href="#wsl2のubuntuにlatexをインストール">WSL2のUbuntuにLaTeXをインストール</a></li>
+  <li><a href="#コンパイル">コンパイル</a></li>
+  <li><a href="#フォントの埋め込み">フォントの埋め込み</a></li>
+  <li><a href="#参考情報">参考情報</a></li>
+  <li><a href="#ホームへ">ホームへ</a></li>
+  </ul>
+</nav>
+
+<main>
+<h1 id="wsl2のubuntuにlatexをインストール">WSL2のUbuntuにLaTeXをインストール</h1>
+<p>とりあえずこれ。</p>
+<pre><code>sudo apt install -y texlive-lang-japanese  texlive-latex-extra xdvik-ja evince</code></pre>
+<h1 id="コンパイル">コンパイル</h1>
+<p>二回コンパイルしたほうがいい。</p>
+<pre><code>uplatex test.tex
+dvipdfmx test.dvi</code></pre>
+<h1 id="フォントの埋め込み">フォントの埋め込み</h1>
+<pre><code>sudo kanji-config-updmap-sys ipa</code></pre>
+<h1 id="参考情報">参考情報</h1>
+<ul>
+<li><a href="https://www.aise.ics.saitama-u.ac.jp/~gotoh/Ubuntu2004JPonWSL2.html">参考記事1</a></li>
+<li><a href="https://texwiki.texjp.org/?cmd=read&amp;page=TeX%E3%81%A8%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88&amp;word=mac%20%E3%83%95%E3%82%A9%E3%83%B3%E3%83%88%20%E5%9F%8B%E3%82%81%E8%BE%BC%E3%81%BF%20ipa">参考記事2</a></li>
+</ul>
+<h1 id="ホームへ">ホームへ</h1>
+<p><a href="https://harunachan.com/">ホームへ</a></p>
+</main>
+
+<script>
+;(function() {
+  // Non-essential if user has JavaScript off. Just makes checkboxes look nicer.
+  var selector = '.task-list > li > input[type="checkbox"]';
+  var checkboxes = document.querySelectorAll(selector);
+  Array.from(checkboxes).forEach((checkbox) => {
+    var wasChecked = checkbox.checked;
+    checkbox.disabled = false;
+    checkbox.addEventListener('click', (ev) => {ev.target.checked = wasChecked});
+  });
+})();
+</script>
+</body>
+</html>
