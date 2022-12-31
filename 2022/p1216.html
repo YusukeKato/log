@@ -29,24 +29,24 @@
 <h1 id="円周率シェル芸">円周率シェル芸</h1>
 <p>円周率を求めるシェル芸。</p>
 <p>インデントを崩せばシェル芸botで実行可能。</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="ex">python</span> -c <span class="st">&quot;</span></a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="st">from decimal import Decimal as D</span></a>
-<a class="sourceLine" id="cb1-3" title="3"><span class="st">from decimal import *</span></a>
-<a class="sourceLine" id="cb1-4" title="4"><span class="st">getcontext().prec=999</span></a>
-<a class="sourceLine" id="cb1-5" title="5"><span class="st">a=D(1)</span></a>
-<a class="sourceLine" id="cb1-6" title="6"><span class="st">b=D(1)/D(2).sqrt()</span></a>
-<a class="sourceLine" id="cb1-7" title="7"><span class="st">t=D(0.25)</span></a>
-<a class="sourceLine" id="cb1-8" title="8"><span class="st">p=D(1)</span></a>
-<a class="sourceLine" id="cb1-9" title="9"><span class="st">for i in range(999):</span></a>
-<a class="sourceLine" id="cb1-10" title="10"><span class="st">  e=(a+b)/D(2)</span></a>
-<a class="sourceLine" id="cb1-11" title="11"><span class="st">  f=(a*b).sqrt()</span></a>
-<a class="sourceLine" id="cb1-12" title="12"><span class="st">  g=t-p*(a-e)**2</span></a>
-<a class="sourceLine" id="cb1-13" title="13"><span class="st">  h=D(2)*p</span></a>
-<a class="sourceLine" id="cb1-14" title="14"><span class="st">  a=e</span></a>
-<a class="sourceLine" id="cb1-15" title="15"><span class="st">  b=f</span></a>
-<a class="sourceLine" id="cb1-16" title="16"><span class="st">  t=g</span></a>
-<a class="sourceLine" id="cb1-17" title="17"><span class="st">  p=h</span></a>
-<a class="sourceLine" id="cb1-18" title="18"><span class="st">print((a+b)**2/(D(4)*t))&quot;</span> <span class="kw">|</span> <span class="ex">cowsay</span> <span class="kw">|</span> <span class="ex">textimg</span> -s</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="ex">python</span> -c <span class="st">&quot;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="st">from decimal import Decimal as D</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="st">from decimal import *</span></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="st">getcontext().prec=999</span></span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a><span class="st">a=D(1)</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a><span class="st">b=D(1)/D(2).sqrt()</span></span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a><span class="st">t=D(0.25)</span></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a><span class="st">p=D(1)</span></span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a><span class="st">for i in range(999):</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a><span class="st">  e=(a+b)/D(2)</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a><span class="st">  f=(a*b).sqrt()</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a><span class="st">  g=t-p*(a-e)**2</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a><span class="st">  h=D(2)*p</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a><span class="st">  a=e</span></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a><span class="st">  b=f</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a><span class="st">  t=g</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a><span class="st">  p=h</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a><span class="st">print((a+b)**2/(D(4)*t))&quot;</span> <span class="kw">|</span> <span class="ex">cowsay</span> <span class="kw">|</span> <span class="ex">textimg</span> -s</span></code></pre></div>
 <h1 id="出力画像">出力画像</h1>
 <p><img src="./p1216.png" /></p>
 <h1 id="ホームへ">ホームへ</h1>

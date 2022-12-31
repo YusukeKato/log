@@ -19,24 +19,32 @@
     <strong>Contents</strong><label for="contents">⊕</label>
   <input type="checkbox" id="contents">
   <ul>
-  <li><a href="#文字列前進シェル芸">文字列前進シェル芸</a>
+  <li><a href="#新しいパソコンの準備">新しいパソコンの準備</a>
   <ul>
-  <li><a href="#作品">作品</a></li>
-  <li><a href="#コード">コード</a></li>
+  <li><a href="#絶対に必要">絶対に必要</a></li>
+  <li><a href="#あればうれしい">あればうれしい</a></li>
   </ul></li>
   <li><a href="#ホームへ">ホームへ</a></li>
   </ul>
 </nav>
 
 <main>
-<h1 id="文字列前進シェル芸">文字列前進シェル芸</h1>
-<h2 id="作品">作品</h2>
-<p><img src="./p1221_2.gif" /></p>
-<h2 id="コード">コード</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{20..70}</span><span class="kw">;</span> <span class="kw">do</span></span>
-<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a>  <span class="ex">convert</span> -size 300x300 -gravity center -font IPA-Pゴシック -pointsize <span class="va">$i</span> label:<span class="st">&quot;シェル芸&quot;</span> i<span class="va">$i</span>.png<span class="kw">;</span></span>
-<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a><span class="kw">done</span>;</span>
-<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="ex">convert</span> -delay 10 -loop 0 i*.png images/m.gif</span></code></pre></div>
+<h1 id="新しいパソコンの準備">新しいパソコンの準備</h1>
+<h2 id="絶対に必要">絶対に必要</h2>
+<ul>
+<li>Windowsアカウント : GoogleアカウントでOK</li>
+<li>Google Chrome : ログインして同期</li>
+<li>WSL2 : Ubuntuインストール</li>
+<li>GitHub : sshでアクセスできるように設定</li>
+</ul>
+<pre><code>sudo apt update
+sudo apt upgrade
+sudo apt install pandoc
+sudo apt install make</code></pre>
+<h2 id="あればうれしい">あればうれしい</h2>
+<ul>
+<li>LaTeX : 小説執筆用</li>
+</ul>
 <h1 id="ホームへ">ホームへ</h1>
 <p><a href="https://harunachan.com/">ホームへ</a></p>
 </main>

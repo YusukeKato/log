@@ -19,7 +19,8 @@
     <strong>Contents</strong><label for="contents">⊕</label>
   <input type="checkbox" id="contents">
   <ul>
-  <li><a href="#neort-random-sin-wave">NEORT “Random Sin Wave”</a><ul>
+  <li><a href="#neort-random-sin-wave">NEORT “Random Sin Wave”</a>
+  <ul>
   <li><a href="#作品">作品</a></li>
   <li><a href="#javascript">JavaScript</a></li>
   <li><a href="#html">HTML</a></li>
@@ -36,28 +37,28 @@
 <p><img src="./p1216_4.gif" /></p>
 <h2 id="javascript">JavaScript</h2>
 <p>p5.js</p>
-<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><a class="sourceLine" id="cb1-1" title="1"><span class="kw">var</span> offset <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></a>
-<a class="sourceLine" id="cb1-2" title="2"><span class="kw">var</span> strum <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></a>
-<a class="sourceLine" id="cb1-3" title="3"></a>
-<a class="sourceLine" id="cb1-4" title="4"><span class="kw">function</span> <span class="at">setup</span>() <span class="op">{</span></a>
-<a class="sourceLine" id="cb1-5" title="5">  <span class="at">createCanvas</span>(windowWidth<span class="op">,</span> windowHeight)<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-6" title="6"><span class="op">}</span></a>
-<a class="sourceLine" id="cb1-7" title="7"></a>
-<a class="sourceLine" id="cb1-8" title="8"><span class="kw">function</span> <span class="at">draw</span>() <span class="op">{</span></a>
-<a class="sourceLine" id="cb1-9" title="9">  <span class="at">background</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-10" title="10">  <span class="at">stroke</span>(<span class="dv">4</span>)<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-11" title="11">  <span class="at">noFill</span>()<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-12" title="12">  <span class="at">beginShape</span>()<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-13" title="13">  <span class="at">vertex</span>(<span class="dv">0</span><span class="op">,</span> height)<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-14" title="14">  <span class="cf">for</span>(<span class="kw">var</span> x <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> x <span class="op">&lt;</span> width<span class="op">;</span> x<span class="op">++</span>)<span class="op">{</span></a>
-<a class="sourceLine" id="cb1-15" title="15">    <span class="kw">var</span> angle <span class="op">=</span> offset <span class="op">+</span> x <span class="op">*</span> <span class="fl">0.01</span><span class="op">;</span></a>
-<a class="sourceLine" id="cb1-16" title="16">    <span class="kw">var</span> y <span class="op">=</span> <span class="at">map</span>(<span class="at">sin</span>(angle)<span class="op">+</span><span class="at">random</span>(<span class="dv">5</span>)<span class="op">,</span> <span class="op">-</span>strum<span class="op">,</span> strum<span class="op">,</span> <span class="dv">150</span><span class="op">,</span> <span class="dv">250</span>)<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-17" title="17">    <span class="at">vertex</span>(x<span class="op">,</span> y<span class="op">+</span><span class="at">random</span>(<span class="dv">50</span>))<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-18" title="18">  <span class="op">}</span></a>
-<a class="sourceLine" id="cb1-19" title="19">  <span class="at">vertex</span>(width<span class="op">,</span> height)<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-20" title="20">  <span class="at">endShape</span>()<span class="op">;</span></a>
-<a class="sourceLine" id="cb1-21" title="21">  offset <span class="op">+=</span> <span class="fl">0.1</span><span class="op">;</span></a>
-<a class="sourceLine" id="cb1-22" title="22"><span class="op">}</span></a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode javascript"><code class="sourceCode javascript"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="kw">var</span> offset <span class="op">=</span> <span class="dv">0</span><span class="op">;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true"></a><span class="kw">var</span> strum <span class="op">=</span> <span class="dv">1</span><span class="op">;</span></span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true"></a></span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true"></a><span class="kw">function</span> <span class="fu">setup</span>() {</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true"></a>  <span class="fu">createCanvas</span>(windowWidth<span class="op">,</span> windowHeight)<span class="op">;</span></span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true"></a>}</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true"></a></span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true"></a><span class="kw">function</span> <span class="fu">draw</span>() {</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true"></a>  <span class="fu">background</span>(<span class="dv">255</span><span class="op">,</span> <span class="dv">0</span><span class="op">,</span> <span class="dv">0</span>)<span class="op">;</span></span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true"></a>  <span class="fu">stroke</span>(<span class="dv">4</span>)<span class="op">;</span></span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true"></a>  <span class="fu">noFill</span>()<span class="op">;</span></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true"></a>  <span class="fu">beginShape</span>()<span class="op">;</span></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true"></a>  <span class="fu">vertex</span>(<span class="dv">0</span><span class="op">,</span> height)<span class="op">;</span></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true"></a>  <span class="cf">for</span>(<span class="kw">var</span> x <span class="op">=</span> <span class="dv">0</span><span class="op">;</span> x <span class="op">&lt;</span> width<span class="op">;</span> x<span class="op">++</span>){</span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true"></a>    <span class="kw">var</span> angle <span class="op">=</span> offset <span class="op">+</span> x <span class="op">*</span> <span class="fl">0.01</span><span class="op">;</span></span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true"></a>    <span class="kw">var</span> y <span class="op">=</span> <span class="fu">map</span>(<span class="fu">sin</span>(angle)<span class="op">+</span><span class="fu">random</span>(<span class="dv">5</span>)<span class="op">,</span> <span class="op">-</span>strum<span class="op">,</span> strum<span class="op">,</span> <span class="dv">150</span><span class="op">,</span> <span class="dv">250</span>)<span class="op">;</span></span>
+<span id="cb1-17"><a href="#cb1-17" aria-hidden="true"></a>    <span class="fu">vertex</span>(x<span class="op">,</span> y<span class="op">+</span><span class="fu">random</span>(<span class="dv">50</span>))<span class="op">;</span></span>
+<span id="cb1-18"><a href="#cb1-18" aria-hidden="true"></a>  }</span>
+<span id="cb1-19"><a href="#cb1-19" aria-hidden="true"></a>  <span class="fu">vertex</span>(width<span class="op">,</span> height)<span class="op">;</span></span>
+<span id="cb1-20"><a href="#cb1-20" aria-hidden="true"></a>  <span class="fu">endShape</span>()<span class="op">;</span></span>
+<span id="cb1-21"><a href="#cb1-21" aria-hidden="true"></a>  offset <span class="op">+=</span> <span class="fl">0.1</span><span class="op">;</span></span>
+<span id="cb1-22"><a href="#cb1-22" aria-hidden="true"></a>}</span></code></pre></div>
 <h2 id="html">HTML</h2>
 <p>公式サイトからHTML拝借。</p>
 <p><a href="https://p5js.org/get-started/">p5.js</a></p>

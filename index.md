@@ -36,6 +36,10 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 - [template.html5](https://github.com/jez/pandoc-markdown-css-theme/blob/master/template.html5)
 - [theme.css](https://github.com/jez/pandoc-markdown-css-theme/blob/master/public/css/theme.css)
 
+# New PC
+
+- [New PC Info.](./log/new_pc.html)
+
 # GitHub
 
 - [YusukeKato](https://github.com/YusukeKato)

@@ -19,7 +19,8 @@
     <strong>Contents</strong><label for="contents">⊕</label>
   <input type="checkbox" id="contents">
   <ul>
-  <li><a href="#四角回転シェル芸">四角回転シェル芸</a><ul>
+  <li><a href="#四角回転シェル芸">四角回転シェル芸</a>
+  <ul>
   <li><a href="#作品">作品</a></li>
   <li><a href="#コード">コード</a></li>
   </ul></li>
@@ -33,7 +34,7 @@
 <h2 id="作品">作品</h2>
 <p><img src="./p1217_2.gif" /></p>
 <h2 id="コード">コード</h2>
-<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><a class="sourceLine" id="cb1-1" title="1"><span class="ex">convert</span> -size 283x283 xc:#FF0000 b.png<span class="kw">;</span> <span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{0..8}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">convert</span> -size 200x200 xc:#FF0000 -rotate -<span class="va">$((</span>i*10<span class="va">))</span> i<span class="va">$i</span>.png<span class="kw">;</span> <span class="ex">convert</span> b.png i<span class="va">$i</span>.png -gravity northeast -composite o<span class="va">$i</span>.png<span class="kw">;</span> <span class="kw">done</span>; <span class="ex">convert</span> -layers optimize -loop 0 -delay 10 /o*.png /images/a.gif</a></code></pre></div>
+<div class="sourceCode" id="cb1"><pre class="sourceCode sh"><code class="sourceCode bash"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true"></a><span class="ex">convert</span> -size 283x283 xc:#FF0000 b.png<span class="kw">;</span> <span class="kw">for</span> <span class="ex">i</span> in <span class="dt">{0..8}</span><span class="kw">;</span> <span class="kw">do</span> <span class="ex">convert</span> -size 200x200 xc:#FF0000 -rotate -<span class="va">$((</span>i*10<span class="va">))</span> i<span class="va">$i</span>.png<span class="kw">;</span> <span class="ex">convert</span> b.png i<span class="va">$i</span>.png -gravity northeast -composite o<span class="va">$i</span>.png<span class="kw">;</span> <span class="kw">done</span>; <span class="ex">convert</span> -layers optimize -loop 0 -delay 10 /o*.png /images/a.gif</span></code></pre></div>
 <h1 id="参考記事">参考記事</h1>
 <p><a href="https://b.ueda.tech/?page=01434">シェル芸について</a></p>
 <h1 id="ホームへ">ホームへ</h1>

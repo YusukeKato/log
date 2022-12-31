@@ -12,6 +12,12 @@
   <priority>0.8</priority>
 </url>
 
+<!-- New PC -->
+<url>
+  <loc>https://harunachan.com/log/new_pc.html</loc>
+  <priority>0.8</priority>
+</url>
+
 <!-- diary -->
 <url>
   <loc>https://harunachan.com/log/diary/p202212.html</loc>
