@@ -6,6 +6,10 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # LOG
 
+## 2023年01月
+
+- [シェル芸で解くAtCoderの問題n選](./log/2023/01/p01.html)
+
 ## 2022年12月
 
 - [クリスマスプレゼント](./log/2022/p1229.html)

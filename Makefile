@@ -15,4 +15,5 @@ all: $(TARGETS)
 clean:
 	rm -f ./*.html
 	rm -f ./2022/*.html
+	rm -f ./2023/01/*.html
 	rm -f ./diary/*.html
