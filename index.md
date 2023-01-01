@@ -25,6 +25,10 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # DIARY
 
+## 2023年
+
+- [2023/01](./log/diary/p202301.html)
+
 ## 2022年
 
 - [2022/12](./log/diary/p202212.html)
