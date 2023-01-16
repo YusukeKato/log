@@ -25,6 +25,10 @@ dvipdfmx test.dvi
 sudo kanji-config-updmap-sys ipa
 ```
 
+# フォント指定
+
+[フォント指定方法](https://qiita.com/zr_tex8r/items/15ec2848371ec19d45ed)
+
 # 参考情報
 
 - [参考記事1](https://www.aise.ics.saitama-u.ac.jp/~gotoh/Ubuntu2004JPonWSL2.html)
