@@ -8,7 +8,8 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 ## 2023年01月
 
-- [シェル芸『競技プログラミングの鉄則』記事](./log/2023/01/p07.html)
+- [Pythonワンライナー第1章](./log/2023/01/p17.html)
+- [シェル芸『競プロの鉄則』](./log/2023/01/p07.html)
 - [シェル芸で解くAtCoderの問題n選](./log/2023/01/p01.html)
 
 ## 2022年12月
