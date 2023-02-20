@@ -6,6 +6,10 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # LOG
 
+## 2023年02月
+
+- [福岡旅行](./log/2023/02/p20.html)
+
 ## 2023年01月
 
 - [今日の刺繍2](./log/2023/01/p23.html)

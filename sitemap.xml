@@ -24,11 +24,21 @@
 
 <!-- diary -->
 <url>
+  <loc>https://harunachan.com/log/diary/p202302.html</loc>
+  <priority>0.8</priority>
+</url>
+<url>
   <loc>https://harunachan.com/log/diary/p202301.html</loc>
   <priority>0.8</priority>
 </url>
 <url>
   <loc>https://harunachan.com/log/diary/p202212.html</loc>
+  <priority>0.8</priority>
+</url>
+
+<!-- 2023 02 -->
+<url>
+  <loc>https://harunachan.com/log/2023/02/p20.html</loc>
   <priority>0.8</priority>
 </url>
 
