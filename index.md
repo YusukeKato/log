@@ -8,6 +8,7 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 ## 2023年02月
 
+- [今日の刺繍3](./log/2023/02/p26.html)
 - [福岡旅行](./log/2023/02/p20.html)
 
 ## 2023年01月
