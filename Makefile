@@ -16,4 +16,16 @@ clean:
 	rm -f ./*.html
 	rm -f ./2022/*.html
 	rm -f ./2023/01/*.html
+	rm -f ./2023/02/*.html
+	rm -f ./2023/03/*.html
+	rm -f ./2023/04/*.html
+	rm -f ./2023/10/*.html
 	rm -f ./diary/*.html
+	rm -f ./*Zone.Identifier
+	rm -f ./2022/*Zone.Identifier
+	rm -f ./2023/01/*Zone.Identifier
+	rm -f ./2023/02/*Zone.Identifier
+	rm -f ./2023/03/*Zone.Identifier
+	rm -f ./2023/04/*Zone.Identifier
+	rm -f ./2023/10/*Zone.Identifier
+	rm -f ./diary/*Zone.Identifier
