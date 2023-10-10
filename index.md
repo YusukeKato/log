@@ -6,6 +6,10 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 # LOG
 
+## 2023年10月
+
+- [結婚披露宴パーティー](./log/2023/10/08.html)
+
 ## 2023年04月
 
 - [刺繍完成](./log/2023/04/24.html)
