@@ -20,7 +20,7 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 ## 2023年05月
 
-- [文学フリマ旅](./log/2023/05/05.html)
+- [にじそ旅](./log/2023/05/05.html)
 
 ## 2023年04月
 
