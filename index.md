@@ -4,6 +4,9 @@
 
 管理人 : [Yusuke Kato](https://yusukekato.github.io/)
 
+# 目的
+ハルちゃんを笑顔にすること
+
 # LOG
 
 ## 2023年10月
