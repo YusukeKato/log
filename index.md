@@ -2,7 +2,7 @@
 
 # ハルナちゃんブログ
 
-Author : [Yusuke Kato](https://yusukekato.github.io/)
+管理人 : [Yusuke Kato](https://yusukekato.github.io/)
 
 # LOG
 
@@ -64,6 +64,7 @@ Author : [Yusuke Kato](https://yusukekato.github.io/)
 
 ## 2023年
 
+- [2023/10](./log/diary/p202310.html)
 - [2023/04](./log/diary/p202304.html)
 - [2023/03](./log/diary/p202303.html)
 - [2023/02](./log/diary/p202302.html)
